@@ -1,0 +1,11 @@
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.csproj.AssemblyReference.cache
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.csproj.SuggestedBindingRedirects.cache
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.csproj.CoreCompileInputs.cache
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\bin\Debug\ThisPersonDoesntExist.exe.config
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\bin\Debug\ThisPersonDoesntExist.exe
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\bin\Debug\ThisPersonDoesntExist.pdb
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.exe
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.pdb
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\bin\Debug\Newtonsoft.Json.dll
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\bin\Debug\Newtonsoft.Json.xml
+D:\Upwork Projects\Scraping\ThisPersonDoesntExist\ThisPersonDoesntExist\obj\Debug\ThisPersonDoesntExist.csproj.CopyComplete
