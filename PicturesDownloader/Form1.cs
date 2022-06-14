@@ -35,6 +35,7 @@ namespace PicturesDownloader
 
         private async void button2_Click(object sender, EventArgs e)
         {
+            button2.Text = "Downloading...";
             //Get 1000 user agents
             string[] userAgents = File.ReadAllText("../../User Agents List.txt").Split('\n');
             int noOfPictures = int.Parse(numericUpDown1.Value.ToString());
@@ -73,13 +74,13 @@ namespace PicturesDownloader
                         }
                         
                     }
-                    label4.Text = "completed"+c.ToString();
                 }
             }
             else
             {
                 MessageBox.Show("Provide all inputs");
             }
+            button2.Text = "Download";
         }
 
     }

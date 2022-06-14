@@ -106,9 +106,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(112, 267);
+            this.button2.Location = new System.Drawing.Point(70, 267);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 65);
+            this.button2.Size = new System.Drawing.Size(259, 65);
             this.button2.TabIndex = 5;
             this.button2.Text = "Download";
             this.button2.UseVisualStyleBackColor = false;
@@ -119,9 +119,9 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Lime;
-            this.label4.Location = new System.Drawing.Point(69, 153);
+            this.label4.Location = new System.Drawing.Point(42, 153);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(282, 99);
+            this.label4.Size = new System.Drawing.Size(324, 99);
             this.label4.TabIndex = 6;
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
