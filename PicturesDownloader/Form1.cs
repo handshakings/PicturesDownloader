@@ -39,19 +39,19 @@ namespace PicturesDownloader
             string[] userAgents = File.ReadAllText("../../User Agents List.txt").Split('\n');
             int noOfPictures = int.Parse(numericUpDown1.Value.ToString());
             int c = 0;
+            int userAgentCounter = 0;
             if(noOfPictures > 0 && label3.Text != "")
             {
                 using (WebClient imgClient = new WebClient())
                 {
-                    HttpClient client = new HttpClient();
-                    
                     while (c < noOfPictures)
                     {
-                        
+                        userAgentCounter = (userAgentCounter == userAgents.Length) ? 0 : userAgentCounter;
                         try
                         {
+                            HttpClient client = new HttpClient();
                             long now = DateTime.Now.Ticks;
-                            string userAgent = userAgents[c].Trim();
+                            string userAgent = userAgents[userAgentCounter].Trim();
                             client.DefaultRequestHeaders.Add("user-agent", userAgent);
 
                             string json = await client.GetStringAsync("https://this-person-does-not-exist.com/en?new=" + now);
@@ -63,15 +63,17 @@ namespace PicturesDownloader
 
                             MyDelegate myDelegate = new MyDelegate(UpdateLabel);
                             myDelegate.DynamicInvoke(c + 1);
+                            userAgentCounter++;
                             c++;
                         }
                         catch (Exception)
                         {
-                            c++;
+                            userAgentCounter++;
                             continue;
                         }
                         
                     }
+                    label4.Text = "completed"+c.ToString();
                 }
             }
             else
