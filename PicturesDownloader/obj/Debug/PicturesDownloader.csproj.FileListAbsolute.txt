@@ -12,3 +12,17 @@ D:\Upwork Projects\Scraping\ThisPersonDoesntExist\PicturesDownloader\obj\Debug\P
 D:\Upwork Projects\Scraping\ThisPersonDoesntExist\PicturesDownloader\bin\Debug\Newtonsoft.Json.dll
 D:\Upwork Projects\Scraping\ThisPersonDoesntExist\PicturesDownloader\bin\Debug\Newtonsoft.Json.xml
 D:\Upwork Projects\Scraping\ThisPersonDoesntExist\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.CopyComplete
+E:\PicturesDownloader\PicturesDownloader\bin\Debug\PicturesDownloader.exe.config
+E:\PicturesDownloader\PicturesDownloader\bin\Debug\PicturesDownloader.exe
+E:\PicturesDownloader\PicturesDownloader\bin\Debug\PicturesDownloader.pdb
+E:\PicturesDownloader\PicturesDownloader\bin\Debug\Newtonsoft.Json.dll
+E:\PicturesDownloader\PicturesDownloader\bin\Debug\Newtonsoft.Json.xml
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.AssemblyReference.cache
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.SuggestedBindingRedirects.cache
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.Form1.resources
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.Properties.Resources.resources
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.GenerateResource.cache
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.CoreCompileInputs.cache
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.csproj.CopyComplete
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.exe
+E:\PicturesDownloader\PicturesDownloader\obj\Debug\PicturesDownloader.pdb

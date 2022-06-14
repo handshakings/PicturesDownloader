@@ -1,15 +1,9 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PicturesDownloader
 {
@@ -41,6 +35,8 @@ namespace PicturesDownloader
 
         private async void button2_Click(object sender, EventArgs e)
         {
+            //Get 1000 user agents
+            string[] userAgents = File.ReadAllText("../../User Agents List.txt").Split('\n');
             int noOfPictures = int.Parse(numericUpDown1.Value.ToString());
             int c = 0;
             if(noOfPictures > 0 && label3.Text != "")
@@ -48,26 +44,33 @@ namespace PicturesDownloader
                 using (WebClient imgClient = new WebClient())
                 {
                     HttpClient client = new HttpClient();
+                    
                     while (c < noOfPictures)
                     {
+                        
                         try
                         {
                             long now = DateTime.Now.Ticks;
+                            string userAgent = userAgents[c].Trim();
+                            client.DefaultRequestHeaders.Add("user-agent", userAgent);
+
                             string json = await client.GetStringAsync("https://this-person-does-not-exist.com/en?new=" + now);
                             Model model = JsonConvert.DeserializeObject<Model>(json);
 
+                            imgClient.Headers.Add("user-agent", userAgent);
                             Uri uri = new Uri("https://this-person-does-not-exist.com/img/" + model.Name);
                             imgClient.DownloadFile(uri, label3.Text + "\\picture" + c + ".jpg");
 
                             MyDelegate myDelegate = new MyDelegate(UpdateLabel);
                             myDelegate.DynamicInvoke(c + 1);
-
+                            c++;
                         }
                         catch (Exception)
                         {
+                            c++;
                             continue;
                         }
-                        c++;
+                        
                     }
                 }
             }
